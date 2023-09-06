@@ -18,5 +18,5 @@ local function LoadCustomInstance(url)
 end
 
 local vrbloxui = LoadCustomInstance("https://github.com/bakersrule2020/VRBlox_Required_Stuff/raw/main/vrbloxui.rbxm")
-local uimanager = require(vrbloxui:WaitForChild("scripts"):WaitForChild("UIManager"))
+local uimanager = require(vrbloxui.scripts.UIManager)
 return uimanager
